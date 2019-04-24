@@ -1,0 +1,13 @@
+Citizen.CreateThread(function()
+	--   batmanpack
+	AddTextEntry('0399C6AB', 'Batmobile 2016')
+	AddTextEntry('09EF2F4A', 'The Tumbler')
+	AddTextEntry('0DA076B7', 'Batmobile 1966')
+	AddTextEntry('4C4B7CCE', 'AK Asylum')
+	AddTextEntry('26AFAE91', 'The Prototype')
+	AddTextEntry('85D9A9BF', 'The Batwing')
+	AddTextEntry('56277B13', 'The Batpod')
+	AddTextEntry('C16ECA9B', 'Waynetech Ind.')
+	AddTextEntry('D4808F97', 'Batmobile MK2')
+	AddTextEntry('F3EDAC24', 'Batmobile 1989')
+  end)
