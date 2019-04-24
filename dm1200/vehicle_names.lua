@@ -1,0 +1,11 @@
+Citizen.CreateThread(function()
+	--   dm1200
+	AddTextEntry('04214BDD', 'Multistrada exh 1')
+	AddTextEntry('790FDFFE', 'Remove front M gaurd')
+	AddTextEntry('6400C100', 'Ducati')
+	AddTextEntry('36002F9A', 'Multistrada exh 2')
+	AddTextEntry('D60F7481', 'Remove back M gaurd')
+	AddTextEntry('E2FA2FCE', 'Multistrada 1200')
+	AddTextEntry('E63CE8BE', 'Remove Mirror')
+	AddTextEntry('ECB51D05', 'Multistrada exh 3')
+  end)
