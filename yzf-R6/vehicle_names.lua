@@ -1,0 +1,13 @@
+Citizen.CreateThread(function()
+	--   R6
+	AddTextEntry('3CABFB47', 'Remove mirrors')
+	AddTextEntry('6C751F8A', 'Remove plate holder')
+	AddTextEntry('9DA14E7E', 'R6 Exhaust 5')
+	AddTextEntry('414F15D7', 'R6 Exhaust 3')
+	AddTextEntry('5031FBB5', 'Yamaha')
+	AddTextEntry('5189B64C', 'R6 Exhaust 2')
+	AddTextEntry('6477DC28', 'R6 Exhaust 1')
+	AddTextEntry('ABC2EAC1', 'R6 Exhaust 4')
+	AddTextEntry('B83F6BEF', 'Chain Gold')
+	AddTextEntry('F4BC6912', 'R6')
+  end)
