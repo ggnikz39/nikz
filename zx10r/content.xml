@@ -5,21 +5,49 @@
   <includedDataFiles />
   <dataFiles>
     <Item>
-      <filename>dlc_zx10r:/data/vehicles.meta</filename>
+      <filename>dlc_zx10:/data/vehicles.meta</filename>
       <fileType>VEHICLE_METADATA_FILE</fileType>
       <overlay value="false" />
       <disabled value="true" />
       <persistent value="false" />
     </Item>
+	<Item>
+      <filename>dlc_zx10:/data/carcols.meta</filename>
+      <fileType>CARCOLS_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
     <Item>
-      <filename>dlc_zx10r:/data/carvariations.meta</filename>
+      <filename>dlc_zx10:/data/carvariations.meta</filename>
       <fileType>VEHICLE_VARIATION_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_zx10:/data/dlctext.meta</filename>
+      <fileType>TEXTFILE_METAFILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="false" />
+    </Item>
+    <Item>
+      <filename>dlc_zx10:/data/handling.meta</filename>
+      <fileType>HANDLING_FILE</fileType>
       <overlay value="false" />
       <disabled value="true" />
       <persistent value="false" />
     </Item>	
     <Item>
-      <filename>dlc_zx10r:/%PLATFORM%/vehicles.rpf</filename>
+      <filename>dlc_zx10:/%PLATFORM%/vehicles.rpf</filename>
+      <fileType>RPF_FILE</fileType>
+      <overlay value="false" />
+      <disabled value="true" />
+      <persistent value="true" />
+    </Item>
+    <Item>
+      <filename>dlc_zx10:/%PLATFORM%/vehiclemods/zx10_mods.rpf</filename>
       <fileType>RPF_FILE</fileType>
       <overlay value="false" />
       <disabled value="true" />
@@ -28,12 +56,16 @@
   </dataFiles>
   <contentChangeSets>
 	<Item>
-	  <changeSetName>zx10r_AUTOGEN</changeSetName>
+	  <changeSetName>zx10_AUTOGEN</changeSetName>
 	  <filesToDisable />
 	  <filesToEnable>
-        <Item>dlc_zx10r:/data/vehicles.meta</Item>
-        <Item>dlc_zx10r:/data/carvariations.meta</Item>
-        <Item>dlc_zx10r:/%PLATFORM%/vehicles.rpf</Item>
+        <Item>dlc_zx10:/data/handling.meta</Item>
+        <Item>dlc_zx10:/data/vehicles.meta</Item>
+		<Item>dlc_zx10:/data/carcols.meta</Item>
+        <Item>dlc_zx10:/data/carvariations.meta</Item>
+        <Item>dlc_zx10:/data/dlctext.meta</Item>	
+        <Item>dlc_zx10:/%PLATFORM%/vehicles.rpf</Item>
+        <Item>dlc_zx10:/%PLATFORM%/vehiclemods/zx10_mods.rpf</Item>	
 	  </filesToEnable>
 	  <txdToLoad />
 	  <txdToUnload />

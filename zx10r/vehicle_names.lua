@@ -1,3 +1,13 @@
 Citizen.CreateThread(function()
 	--   zx10r
+	AddTextEntry('3FCCEF54', 'Zx Exhaust Racer')
+	AddTextEntry('65E5302C', 'ZX10 R')
+	AddTextEntry('93E51687', 'Chain Racer')
+	AddTextEntry('AEFD305D', 'Remove Mirrors')
+	AddTextEntry('B1CF5619', 'kawasaki Ninja')
+	AddTextEntry('C2AAF50E', 'Zx Exhaust 2')
+	AddTextEntry('D0841904', 'Race mgaurd')
+	AddTextEntry('D17E92B9', 'Zx Exhaust 1')
+	AddTextEntry('D6833BDC', 'ZX10 Racer')
+	AddTextEntry('E48B2698', 'Remove plate holder')
   end)

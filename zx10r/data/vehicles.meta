@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <CVehicleModelInfo__InitDataList>
   <residentTxd>vehshare</residentTxd>
   <residentAnims />
   <InitDatas>
-   <Item>
-      <modelName>zx10r</modelName>
-      <txdName>zx10r</txdName>
-      <handlingId>BATI</handlingId>
-      <gameName>zx10r</gameName>
-      <vehicleMakeName>Kawasaki</vehicleMakeName>
+    <Item>
+      <modelName>zx10</modelName>
+      <txdName>zx10</txdName>
+      <handlingId>zx10</handlingId>
+      <gameName>zx10</gameName>
+      <vehicleMakeName>kawasaki</vehicleMakeName>
       <expressionDictName>null</expressionDictName>
       <expressionName>null</expressionName>
       <animConvRoofDictName>null</animConvRoofDictName>
@@ -18,20 +19,20 @@
       <audioNameHash>HAKUCHOU</audioNameHash>
       <layout>LAYOUT_BIKE_SPORT</layout>
       <coverBoundOffsets>BIKE_COVER_OFFSET_INFO</coverBoundOffsets>
-	  <POVTuningInfo>SANCHEZ_POV_TUNING</POVTuningInfo>
+	  <POVTuningInfo>PCJ_POV_TUNING</POVTuningInfo>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
       <scenarioLayout />
-      <cameraName>FOLLOW_UPRIGHT_BIKE_CAMERA</cameraName>
+      <cameraName>FOLLOW_BIKE_CAMERA</cameraName>
       <aimCameraName>BIKE_AIM_CAMERA</aimCameraName>
-      <bonnetCameraName>BIKE_SANCHEZ_POV_CAMERA</bonnetCameraName>
-      <povCameraName>BIKE_SANCHEZ_POV_CAMERA</povCameraName>
+      <bonnetCameraName>BIKE_BATI_POV_CAMERA</bonnetCameraName>
+      <povCameraName>BIKE_BATI_POV_CAMERA</povCameraName>
       <FirstPersonDriveByIKOffset x="0.000000" y="-0.060000" z="0.000000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
-	  <FirstPersonProjectileDriveByIKOffset x="0.030000" y="0.020000" z="0.000000" />
+	  <FirstPersonProjectileDriveByIKOffset x="0.000000" y="-0.060000" z="0.000000" />
 	  <FirstPersonProjectileDriveByPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
 	  <FirstPersonProjectileDriveByRearLeftIKOffset x="0.000000" y="0.000000" z="0.000000" />
 	  <FirstPersonProjectileDriveByRearRightIKOffset x="0.000000" y="0.000000" z="0.000000" />
-	  <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="-0.060000" z="-0.020000" />
+	  <FirstPersonDriveByLeftPassengerIKOffset x="0.000000" y="-0.060000" z="-0.030000" />
 	  <FirstPersonDriveByRightPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
 	  <FirstPersonDriveByRightRearPassengerIKOffset x="0.000000" y="0.000000" z="0.000000" />
 	  <FirstPersonDriveByLeftPassengerUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
@@ -40,8 +41,8 @@
       <FirstPersonPassengerMobilePhoneOffset x="0.136000" y="0.223000" z="0.425000" />
       <PovCameraOffset x="0.000000" y="0.000000" z="0.000000" />
       <PovCameraVerticalAdjustmentForRollCage value="0.000000" />
-      <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.200000" />
-      <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovPassengerCameraOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PovRearPassengerCameraOffset x="0.000000" y="0.000000" z="0.115000" />
       <vfxInfoName>VFXVEHICLEINFO_MOTORBIKE_GENERIC</vfxInfoName>
       <shouldUseCinematicViewMode value="true" />
       <shouldCameraTransitionOnClimbUpDown value="false" />
@@ -50,10 +51,10 @@
       <AllowJoyriding value="true" />
       <AllowSundayDriving value="true" />
       <AllowBodyColorMapping value="true" />
-      <wheelScale value="0.265900" />
-      <wheelScaleRear value="0.237600" />
-      <SPORTLevelMin value="0.300000" />
-      <SPORTLevelMax value="1.000000" />
+      <wheelScale value="0.230300" />
+      <wheelScaleRear value="0.229700" />
+      <dirtLevelMin value="0.300000" />
+      <dirtLevelMax value="1.000000" />
       <envEffScaleMin value="0.000000" />
       <envEffScaleMax value="1.000000" />
       <envEffScaleMin2 value="0.000000" />
@@ -61,7 +62,7 @@
       <damageMapScale value="0.600000" />
       <damageOffsetScale value="1.000000" />
       <diffuseTint value="0x00FFFFFF" />
-      <steerWheelMult value="0.700000" />
+      <steerWheelMult value="0.600000" />
       <HDTextureDist value="5.000000" />
       <lodDistances content="float_array">
         15.000000
@@ -79,26 +80,18 @@
       <visibleSpawnDistScale value="1.000000" />
       <trackerPathWidth value="2.000000" />
       <weaponForceMult value="1.000000" />
-      <frequency value="30" />
-      <swankness>SWANKNESS_1</swankness>
+      <frequency value="60" />
+      <swankness>SWANKNESS_3</swankness>
       <maxNum value="5" />
-      <flags>FLAG_NO_BOOT FLAG_IGNORE_ON_SIDE_CHECK FLAG_AVERAGE_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS</flags>
+      <flags>FLAG_NO_BOOT FLAG_HAS_LIVERY FLAG_IGNORE_ON_SIDE_CHECK FLAG_RICH_CAR FLAG_IS_OFFROAD_VEHICLE FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS</flags>
       <type>VEHICLE_TYPE_BIKE</type>
-      <plateType>VPT_NONE</plateType>
+      <plateType>VPT_BACK_PLATES</plateType>
+      <dashboardType>VDT_TRUCKDIGI</dashboardType>
       <vehicleClass>VC_MOTORCYCLE</vehicleClass>
       <wheelType>VWT_BIKE</wheelType>
       <trailers />
       <additionalTrailers />
-      <drivers>
-        <Item>
-          <driverName>A_M_M_Hillbilly_02</driverName>
-          <npcName />
-        </Item>
-        <Item>
-          <driverName>A_M_M_Salton_01</driverName>
-          <npcName />
-        </Item>
-      </drivers>
+      <drivers />
       <extraIncludes />
       <doorsWithCollisionWhenClosed />
       <driveableDoors />
@@ -108,21 +101,23 @@
       <rewards />
       <cinematicPartCamera>
         <Item>WHEEL_REAR_LEFT_CAMERA</Item>
+        <Item>WHEEL_REAR_RIGHT_CAMERA</Item>
       </cinematicPartCamera>
       <NmBraceOverrideSet>Bike</NmBraceOverrideSet>
       <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
       <buoyancySphereSizeScale value="1.000000" />
       <pOverrideRagdollThreshold type="NULL" />
 	  <firstPersonDrivebyData>
-        <Item>BIKE_SANCHEZ_FRONT</Item>
-        <Item>BIKE_DAEMON_REAR</Item>
+        <Item>BIKE_CARBONRS_FRONT</Item>
+        <Item>BIKE_BATI_REAR</Item>
       </firstPersonDrivebyData>
+     </Item>
+ </InitDatas>
+  <txdRelationships>
+    <Item>
+      <parent>vehshare_truck</parent>
+      <child>zx10</child>
     </Item>
-	</InitDatas>
-	<txdRelationships>
-	<Item>
-      <parent>vehicles_sportbk_interior</parent>
-      <child>zx10r</child>
-    </Item>
-	  </txdRelationships>
+  </txdRelationships>
+
 </CVehicleModelInfo__InitDataList>
