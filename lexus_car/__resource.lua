@@ -7,6 +7,7 @@ files {
     'data/handling.meta',
 	'data/dlctext.meta',
 	'data/vehiclelayouts.meta',
+	'data/golgl18contentunlocks.meta',
 }
  
 data_file 'HANDLING_FILE' 'data/handling.meta'
